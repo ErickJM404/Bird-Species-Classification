@@ -16,14 +16,23 @@ This project uses pre-trained convolutional neural networks to classify bird spe
 
 ## 🧠 Models Used
 
-| Model           | Accuracy (2 Epochs) | Notes                            |
-|----------------|---------------------|----------------------------------|
-| ResNet18        | ~28%                | Strong general-purpose baseline |
-| AlexNet         | ~20%                | Smaller but outdated architecture |
-| MobileNetV2     | TBD                 | Lightweight, mobile-friendly    |
-| EfficientNet-B0 | TBD                 | High accuracy, good efficiency  |
+| Model           | Final Accuracy (Top-1) | Notes                              |
+|----------------|------------------------|------------------------------------|
+| ResNet18        | 33.67%                 | Strong general-purpose baseline    |
+| AlexNet         | 19.08%                 | Smaller but outdated architecture  |
+| MobileNetV2     | 39.57%                 | Lightweight, mobile-friendly       |
+| EfficientNet-B0 | 29.86%                 | High accuracy, good efficiency     |
 
-*Note: Results improve with more epochs.*
+---
+
+## 🏆 Top-5 Accuracy
+
+| Model           | Top-5 Accuracy |
+|----------------|----------------|
+| ResNet18        | 61.32%         |
+| AlexNet         | 42.15%         |
+| MobileNetV2     | 66.79%         |
+| EfficientNet-B0 | 54.28%         |
 
 ---
 
@@ -50,4 +59,4 @@ This project uses pre-trained convolutional neural networks to classify bird spe
 
 ### 1. Clone the Repo
 ```bash
-git clone https://github.com/YOUR_USERNAME/bird-species-classification.git
+git clone https://github.com/YOUR_USERNAME/Bird-Species-Classification.git
