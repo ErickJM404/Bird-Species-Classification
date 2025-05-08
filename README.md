@@ -55,8 +55,3 @@ This project uses pre-trained convolutional neural networks to classify bird spe
 
 ---
 
-## 🚀 How to Use
-
-### 1. Clone the Repo
-```bash
-git clone https://github.com/YOUR_USERNAME/Bird-Species-Classification.git
