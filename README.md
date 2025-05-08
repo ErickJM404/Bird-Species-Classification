@@ -47,11 +47,4 @@ This project uses pre-trained convolutional neural networks to classify bird spe
 
 ---
 
-## 🔍 Sample Visualization
-
-<p align="center">
-  <img src="sample_confusion_matrix.png" width="600">
-</p>
-
----
 
