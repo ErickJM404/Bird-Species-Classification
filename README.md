@@ -5,6 +5,23 @@ This project uses pre-trained convolutional neural networks to classify bird spe
 
 ---
 
+## 📋 Instructions
+
+1. 📥 **Download the Notebook**  
+   Clone the repository or download the `bird_species_classification_final.ipynb` file to your local machine or upload it directly to [Google Colab](https://colab.research.google.com/).
+
+2. ⚠️ **Disclaimer**  
+   This project was developed and tested using **Google Colab**. It is recommended to run the notebook in Colab for the smoothest experience.
+
+3. ⚙️ **Enable GPU Acceleration**  
+   Before running any cells in Colab, go to  
+   `Runtime` → `Change runtime type` → Set **Hardware accelerator** to **GPU** → Click **Save**.
+
+4. 📦 **Install Required Libraries**  
+   All required Python packages are listed and installed at the beginning of the notebook using `pip`. Run the first few cells to ensure dependencies are installed.
+
+---
+
 ## 📂 Dataset
 
 - **Name**: CUB-200-2011 (Caltech-UCSD Birds 200)
@@ -46,5 +63,3 @@ This project uses pre-trained convolutional neural networks to classify bird spe
 - ✅ Inference and prediction visualization for random test images
 
 ---
-
-
